@@ -1,0 +1,13 @@
+2021-06-15 10:54:05,302 - utils.logger - INFO - The number of training samples = 41
+2021-06-15 10:54:08,033 - utils.logger - INFO - Cur epoch 1 loss ccc:nan
+2021-06-15 10:54:08,459 - utils.logger - INFO - Cur epoch 1 loss ccc:nan
+2021-06-15 10:54:08,830 - utils.logger - INFO - Cur epoch 1 loss ccc:nan
+2021-06-15 10:54:08,830 - utils.logger - INFO - saving the model at the end of epoch 1, iters 6
+2021-06-15 10:54:09,332 - utils.logger - INFO - End of training epoch 1 / 60 	 Time Taken: 1 sec, Data loading: 0 sec
+2021-06-15 10:54:09,332 - utils.logger - INFO - learning rate = 0.0000200
+2021-06-15 10:54:09,694 - utils.logger - INFO - Trn result of epoch 1 / 60 mse nan rmse nan pcc nan ccc nan
+2021-06-15 10:54:09,833 - utils.logger - INFO - Val result of epoch 1 / 60 mse nan rmse nan pcc nan ccc nan
+2021-06-15 10:54:10,232 - utils.logger - INFO - Cur epoch 2 loss ccc:nan
+2021-06-15 10:54:10,608 - utils.logger - INFO - Cur epoch 2 loss ccc:nan
+2021-06-15 10:54:10,935 - utils.logger - INFO - Cur epoch 2 loss ccc:nan
+2021-06-15 10:54:10,935 - utils.logger - INFO - saving the model at the end of epoch 2, iters 12

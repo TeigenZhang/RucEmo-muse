@@ -31,7 +31,7 @@ def get_dim(feat_name):
         'effnet_finetune_aug': 256,
         'vgg16': 512,
         'lld': 130,
-        'wav2vec': 512
+        'wav2vec': 768
     }
     if dim_dict.get(feat_name) is not None:
         return dim_dict[feat_name]

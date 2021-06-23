@@ -1,10 +1,12 @@
 set -e
 target=$1
-run_idx=$2
-gpu_ids=$3
+task=$2
+feature=$3
+run_idx=$4
+gpu_ids=$5
 
 cmd="python train.py --dataroot='dataset/wild' 
---dataset_mode=muse_wild_split --model=late_fusion --gpu_ids=$gpu_ids
+--dataset_mode=use_$task --model=late_fusion --gpu_ids=$gpu_ids
 --log_dir=./logs --checkpoints_dir=./checkpoints --print_freq=1
 --max_seq_len=100 --hidden_size=-1 --num_thread=8
 --a_features=vggish --v_features=denseface_lrc,au --l_features=bert_base_cover 

@@ -1,0 +1,403 @@
+2021-06-07 02:49:42,400 - utils.logger - INFO - The number of training samples = 41
+2021-06-07 02:49:45,054 - utils.logger - INFO - Cur epoch 1 loss MSE:0.3362
+2021-06-07 02:49:45,377 - utils.logger - INFO - Cur epoch 1 loss MSE:1.0239
+2021-06-07 02:49:45,648 - utils.logger - INFO - Cur epoch 1 loss MSE:0.0001
+2021-06-07 02:49:45,648 - utils.logger - INFO - saving the model at the end of epoch 1, iters 6
+2021-06-07 02:49:45,778 - utils.logger - INFO - End of training epoch 1 / 50 	 Time Taken: 1 sec, Data loading: 0 sec
+2021-06-07 02:49:45,778 - utils.logger - INFO - learning rate = 0.0000100
+2021-06-07 02:49:46,105 - utils.logger - INFO - Trn result of epoch 1 / 50 mse 0.0449 rmse 0.2118 pcc 0.2439 ccc 0.0070
+2021-06-07 02:49:46,219 - utils.logger - INFO - Val result of epoch 1 / 50 mse 0.0376 rmse 0.1939 pcc 0.3064 ccc 0.0117
+2021-06-07 02:49:46,549 - utils.logger - INFO - Cur epoch 2 loss MSE:0.3611
+2021-06-07 02:49:46,884 - utils.logger - INFO - Cur epoch 2 loss MSE:0.7942
+2021-06-07 02:49:47,151 - utils.logger - INFO - Cur epoch 2 loss MSE:6.0431
+2021-06-07 02:49:47,151 - utils.logger - INFO - saving the model at the end of epoch 2, iters 12
+2021-06-07 02:49:47,312 - utils.logger - INFO - End of training epoch 2 / 50 	 Time Taken: 1 sec, Data loading: 0 sec
+2021-06-07 02:49:47,312 - utils.logger - INFO - learning rate = 0.0000100
+2021-06-07 02:49:47,638 - utils.logger - INFO - Trn result of epoch 2 / 50 mse 0.0446 rmse 0.2111 pcc 0.2607 ccc 0.0112
+2021-06-07 02:49:47,754 - utils.logger - INFO - Val result of epoch 2 / 50 mse 0.0373 rmse 0.1932 pcc 0.3174 ccc 0.0187
+2021-06-07 02:49:48,065 - utils.logger - INFO - Cur epoch 3 loss MSE:0.1368
+2021-06-07 02:49:48,383 - utils.logger - INFO - Cur epoch 3 loss MSE:0.0386
+2021-06-07 02:49:48,658 - utils.logger - INFO - Cur epoch 3 loss MSE:0.0063
+2021-06-07 02:49:48,659 - utils.logger - INFO - saving the model at the end of epoch 3, iters 18
+2021-06-07 02:49:48,825 - utils.logger - INFO - End of training epoch 3 / 50 	 Time Taken: 1 sec, Data loading: 0 sec
+2021-06-07 02:49:48,826 - utils.logger - INFO - learning rate = 0.0000100
+2021-06-07 02:49:49,149 - utils.logger - INFO - Trn result of epoch 3 / 50 mse 0.0443 rmse 0.2104 pcc 0.2626 ccc 0.0169
+2021-06-07 02:49:49,263 - utils.logger - INFO - Val result of epoch 3 / 50 mse 0.0370 rmse 0.1924 pcc 0.3218 ccc 0.0279
+2021-06-07 02:49:49,583 - utils.logger - INFO - Cur epoch 4 loss MSE:0.6471
+2021-06-07 02:49:49,886 - utils.logger - INFO - Cur epoch 4 loss MSE:2.5238
+2021-06-07 02:49:50,146 - utils.logger - INFO - Cur epoch 4 loss MSE:4.4248
+2021-06-07 02:49:50,146 - utils.logger - INFO - saving the model at the end of epoch 4, iters 24
+2021-06-07 02:49:50,304 - utils.logger - INFO - End of training epoch 4 / 50 	 Time Taken: 1 sec, Data loading: 0 sec
+2021-06-07 02:49:50,304 - utils.logger - INFO - learning rate = 0.0000100
+2021-06-07 02:49:50,632 - utils.logger - INFO - Trn result of epoch 4 / 50 mse 0.0440 rmse 0.2098 pcc 0.2704 ccc 0.0235
+2021-06-07 02:49:50,744 - utils.logger - INFO - Val result of epoch 4 / 50 mse 0.0367 rmse 0.1916 pcc 0.3165 ccc 0.0384
+2021-06-07 02:49:51,051 - utils.logger - INFO - Cur epoch 5 loss MSE:0.8083
+2021-06-07 02:49:51,366 - utils.logger - INFO - Cur epoch 5 loss MSE:0.0086
+2021-06-07 02:49:51,613 - utils.logger - INFO - Cur epoch 5 loss MSE:0.1638
+2021-06-07 02:49:51,614 - utils.logger - INFO - saving the model at the end of epoch 5, iters 30
+2021-06-07 02:49:51,745 - utils.logger - INFO - End of training epoch 5 / 50 	 Time Taken: 1 sec, Data loading: 0 sec
+2021-06-07 02:49:51,745 - utils.logger - INFO - learning rate = 0.0000100
+2021-06-07 02:49:52,070 - utils.logger - INFO - Trn result of epoch 5 / 50 mse 0.0437 rmse 0.2089 pcc 0.2602 ccc 0.0349
+2021-06-07 02:49:52,181 - utils.logger - INFO - Val result of epoch 5 / 50 mse 0.0361 rmse 0.1901 pcc 0.3196 ccc 0.0584
+2021-06-07 02:49:52,484 - utils.logger - INFO - Cur epoch 6 loss MSE:0.0324
+2021-06-07 02:49:52,782 - utils.logger - INFO - Cur epoch 6 loss MSE:0.5556
+2021-06-07 02:49:53,045 - utils.logger - INFO - Cur epoch 6 loss MSE:0.0311
+2021-06-07 02:49:53,045 - utils.logger - INFO - saving the model at the end of epoch 6, iters 36
+2021-06-07 02:49:53,184 - utils.logger - INFO - End of training epoch 6 / 50 	 Time Taken: 1 sec, Data loading: 0 sec
+2021-06-07 02:49:53,184 - utils.logger - INFO - learning rate = 0.0000100
+2021-06-07 02:49:53,516 - utils.logger - INFO - Trn result of epoch 6 / 50 mse 0.0432 rmse 0.2078 pcc 0.2696 ccc 0.0468
+2021-06-07 02:49:53,631 - utils.logger - INFO - Val result of epoch 6 / 50 mse 0.0356 rmse 0.1888 pcc 0.3243 ccc 0.0763
+2021-06-07 02:49:53,943 - utils.logger - INFO - Cur epoch 7 loss MSE:0.0288
+2021-06-07 02:49:54,251 - utils.logger - INFO - Cur epoch 7 loss MSE:0.0011
+2021-06-07 02:49:54,492 - utils.logger - INFO - Cur epoch 7 loss MSE:6.1034
+2021-06-07 02:49:54,493 - utils.logger - INFO - saving the model at the end of epoch 7, iters 42
+2021-06-07 02:49:54,638 - utils.logger - INFO - End of training epoch 7 / 50 	 Time Taken: 1 sec, Data loading: 0 sec
+2021-06-07 02:49:54,638 - utils.logger - INFO - learning rate = 0.0000100
+2021-06-07 02:49:54,964 - utils.logger - INFO - Trn result of epoch 7 / 50 mse 0.0425 rmse 0.2062 pcc 0.2850 ccc 0.0703
+2021-06-07 02:49:55,076 - utils.logger - INFO - Val result of epoch 7 / 50 mse 0.0349 rmse 0.1869 pcc 0.3272 ccc 0.1100
+2021-06-07 02:49:55,375 - utils.logger - INFO - Cur epoch 8 loss MSE:0.0630
+2021-06-07 02:49:55,679 - utils.logger - INFO - Cur epoch 8 loss MSE:0.9520
+2021-06-07 02:49:55,940 - utils.logger - INFO - Cur epoch 8 loss MSE:2.9462
+2021-06-07 02:49:55,940 - utils.logger - INFO - saving the model at the end of epoch 8, iters 48
+2021-06-07 02:49:56,101 - utils.logger - INFO - End of training epoch 8 / 50 	 Time Taken: 1 sec, Data loading: 0 sec
+2021-06-07 02:49:56,101 - utils.logger - INFO - learning rate = 0.0000100
+2021-06-07 02:49:56,419 - utils.logger - INFO - Trn result of epoch 8 / 50 mse 0.0416 rmse 0.2040 pcc 0.3051 ccc 0.1037
+2021-06-07 02:49:56,530 - utils.logger - INFO - Val result of epoch 8 / 50 mse 0.0340 rmse 0.1844 pcc 0.3456 ccc 0.1599
+2021-06-07 02:49:56,855 - utils.logger - INFO - Cur epoch 9 loss MSE:0.0275
+2021-06-07 02:49:57,186 - utils.logger - INFO - Cur epoch 9 loss MSE:0.6635
+2021-06-07 02:49:57,457 - utils.logger - INFO - Cur epoch 9 loss MSE:3.0485
+2021-06-07 02:49:57,457 - utils.logger - INFO - saving the model at the end of epoch 9, iters 54
+2021-06-07 02:49:57,612 - utils.logger - INFO - End of training epoch 9 / 50 	 Time Taken: 1 sec, Data loading: 0 sec
+2021-06-07 02:49:57,612 - utils.logger - INFO - learning rate = 0.0000100
+2021-06-07 02:49:57,938 - utils.logger - INFO - Trn result of epoch 9 / 50 mse 0.0400 rmse 0.2000 pcc 0.3485 ccc 0.1667
+2021-06-07 02:49:58,051 - utils.logger - INFO - Val result of epoch 9 / 50 mse 0.0325 rmse 0.1803 pcc 0.3904 ccc 0.2432
+2021-06-07 02:49:58,363 - utils.logger - INFO - Cur epoch 10 loss MSE:0.1626
+2021-06-07 02:49:58,676 - utils.logger - INFO - Cur epoch 10 loss MSE:0.1818
+2021-06-07 02:49:58,935 - utils.logger - INFO - Cur epoch 10 loss MSE:2.2360
+2021-06-07 02:49:58,936 - utils.logger - INFO - saving the model at the end of epoch 10, iters 60
+2021-06-07 02:49:59,096 - utils.logger - INFO - End of training epoch 10 / 50 	 Time Taken: 1 sec, Data loading: 0 sec
+2021-06-07 02:49:59,097 - utils.logger - INFO - learning rate = 0.0000100
+2021-06-07 02:49:59,415 - utils.logger - INFO - Trn result of epoch 10 / 50 mse 0.0392 rmse 0.1980 pcc 0.3605 ccc 0.1866
+2021-06-07 02:49:59,526 - utils.logger - INFO - Val result of epoch 10 / 50 mse 0.0319 rmse 0.1785 pcc 0.4062 ccc 0.2689
+2021-06-07 02:49:59,845 - utils.logger - INFO - Cur epoch 11 loss MSE:0.9179
+2021-06-07 02:50:00,156 - utils.logger - INFO - Cur epoch 11 loss MSE:0.1228
+2021-06-07 02:50:00,423 - utils.logger - INFO - Cur epoch 11 loss MSE:0.0236
+2021-06-07 02:50:00,423 - utils.logger - INFO - saving the model at the end of epoch 11, iters 66
+2021-06-07 02:50:00,553 - utils.logger - INFO - End of training epoch 11 / 50 	 Time Taken: 1 sec, Data loading: 0 sec
+2021-06-07 02:50:00,553 - utils.logger - INFO - learning rate = 0.0000100
+2021-06-07 02:50:00,883 - utils.logger - INFO - Trn result of epoch 11 / 50 mse 0.0391 rmse 0.1979 pcc 0.3629 ccc 0.1802
+2021-06-07 02:50:00,997 - utils.logger - INFO - Val result of epoch 11 / 50 mse 0.0318 rmse 0.1782 pcc 0.4094 ccc 0.2630
+2021-06-07 02:50:01,317 - utils.logger - INFO - Cur epoch 12 loss MSE:0.7304
+2021-06-07 02:50:01,629 - utils.logger - INFO - Cur epoch 12 loss MSE:0.5903
+2021-06-07 02:50:01,894 - utils.logger - INFO - Cur epoch 12 loss MSE:0.9366
+2021-06-07 02:50:01,894 - utils.logger - INFO - saving the model at the end of epoch 12, iters 72
+2021-06-07 02:50:02,052 - utils.logger - INFO - End of training epoch 12 / 50 	 Time Taken: 1 sec, Data loading: 0 sec
+2021-06-07 02:50:02,052 - utils.logger - INFO - learning rate = 0.0000100
+2021-06-07 02:50:02,373 - utils.logger - INFO - Trn result of epoch 12 / 50 mse 0.0386 rmse 0.1965 pcc 0.3799 ccc 0.2001
+2021-06-07 02:50:02,483 - utils.logger - INFO - Val result of epoch 12 / 50 mse 0.0310 rmse 0.1761 pcc 0.4344 ccc 0.2942
+2021-06-07 02:50:02,794 - utils.logger - INFO - Cur epoch 13 loss MSE:0.0183
+2021-06-07 02:50:03,130 - utils.logger - INFO - Cur epoch 13 loss MSE:0.1418
+2021-06-07 02:50:03,393 - utils.logger - INFO - Cur epoch 13 loss MSE:0.4914
+2021-06-07 02:50:03,393 - utils.logger - INFO - saving the model at the end of epoch 13, iters 78
+2021-06-07 02:50:03,551 - utils.logger - INFO - End of training epoch 13 / 50 	 Time Taken: 1 sec, Data loading: 0 sec
+2021-06-07 02:50:03,551 - utils.logger - INFO - learning rate = 0.0000100
+2021-06-07 02:50:03,874 - utils.logger - INFO - Trn result of epoch 13 / 50 mse 0.0381 rmse 0.1953 pcc 0.3992 ccc 0.2210
+2021-06-07 02:50:03,985 - utils.logger - INFO - Val result of epoch 13 / 50 mse 0.0308 rmse 0.1754 pcc 0.4455 ccc 0.3166
+2021-06-07 02:50:04,300 - utils.logger - INFO - Cur epoch 14 loss MSE:0.1276
+2021-06-07 02:50:04,602 - utils.logger - INFO - Cur epoch 14 loss MSE:0.0242
+2021-06-07 02:50:04,860 - utils.logger - INFO - Cur epoch 14 loss MSE:0.0451
+2021-06-07 02:50:04,860 - utils.logger - INFO - saving the model at the end of epoch 14, iters 84
+2021-06-07 02:50:04,999 - utils.logger - INFO - End of training epoch 14 / 50 	 Time Taken: 1 sec, Data loading: 0 sec
+2021-06-07 02:50:05,000 - utils.logger - INFO - learning rate = 0.0000100
+2021-06-07 02:50:05,319 - utils.logger - INFO - Trn result of epoch 14 / 50 mse 0.0377 rmse 0.1943 pcc 0.4030 ccc 0.2154
+2021-06-07 02:50:05,428 - utils.logger - INFO - Val result of epoch 14 / 50 mse 0.0308 rmse 0.1754 pcc 0.4390 ccc 0.3011
+2021-06-07 02:50:05,743 - utils.logger - INFO - Cur epoch 15 loss MSE:0.6606
+2021-06-07 02:50:06,065 - utils.logger - INFO - Cur epoch 15 loss MSE:0.0034
+2021-06-07 02:50:06,344 - utils.logger - INFO - Cur epoch 15 loss MSE:2.0412
+2021-06-07 02:50:06,344 - utils.logger - INFO - saving the model at the end of epoch 15, iters 90
+2021-06-07 02:50:06,501 - utils.logger - INFO - End of training epoch 15 / 50 	 Time Taken: 1 sec, Data loading: 0 sec
+2021-06-07 02:50:06,501 - utils.logger - INFO - learning rate = 0.0000100
+2021-06-07 02:50:06,822 - utils.logger - INFO - Trn result of epoch 15 / 50 mse 0.0367 rmse 0.1916 pcc 0.4138 ccc 0.2480
+2021-06-07 02:50:06,934 - utils.logger - INFO - Val result of epoch 15 / 50 mse 0.0303 rmse 0.1742 pcc 0.4472 ccc 0.3336
+2021-06-07 02:50:07,266 - utils.logger - INFO - Cur epoch 16 loss MSE:0.1131
+2021-06-07 02:50:07,578 - utils.logger - INFO - Cur epoch 16 loss MSE:1.6902
+2021-06-07 02:50:07,863 - utils.logger - INFO - Cur epoch 16 loss MSE:2.5406
+2021-06-07 02:50:07,864 - utils.logger - INFO - saving the model at the end of epoch 16, iters 96
+2021-06-07 02:50:08,020 - utils.logger - INFO - End of training epoch 16 / 50 	 Time Taken: 1 sec, Data loading: 0 sec
+2021-06-07 02:50:08,020 - utils.logger - INFO - learning rate = 0.0000100
+2021-06-07 02:50:08,339 - utils.logger - INFO - Trn result of epoch 16 / 50 mse 0.0388 rmse 0.1969 pcc 0.3981 ccc 0.3006
+2021-06-07 02:50:08,451 - utils.logger - INFO - Val result of epoch 16 / 50 mse 0.0317 rmse 0.1781 pcc 0.4457 ccc 0.3766
+2021-06-07 02:50:08,777 - utils.logger - INFO - Cur epoch 17 loss MSE:0.0155
+2021-06-07 02:50:09,103 - utils.logger - INFO - Cur epoch 17 loss MSE:0.2293
+2021-06-07 02:50:09,384 - utils.logger - INFO - Cur epoch 17 loss MSE:1.0463
+2021-06-07 02:50:09,384 - utils.logger - INFO - saving the model at the end of epoch 17, iters 102
+2021-06-07 02:50:09,540 - utils.logger - INFO - End of training epoch 17 / 50 	 Time Taken: 1 sec, Data loading: 0 sec
+2021-06-07 02:50:09,541 - utils.logger - INFO - learning rate = 0.0000100
+2021-06-07 02:50:09,859 - utils.logger - INFO - Trn result of epoch 17 / 50 mse 0.0398 rmse 0.1994 pcc 0.3940 ccc 0.3210
+2021-06-07 02:50:09,970 - utils.logger - INFO - Val result of epoch 17 / 50 mse 0.0325 rmse 0.1803 pcc 0.4388 ccc 0.3858
+2021-06-07 02:50:10,276 - utils.logger - INFO - Cur epoch 18 loss MSE:2.4942
+2021-06-07 02:50:10,588 - utils.logger - INFO - Cur epoch 18 loss MSE:0.2903
+2021-06-07 02:50:10,847 - utils.logger - INFO - Cur epoch 18 loss MSE:0.6126
+2021-06-07 02:50:10,847 - utils.logger - INFO - saving the model at the end of epoch 18, iters 108
+2021-06-07 02:50:11,006 - utils.logger - INFO - End of training epoch 18 / 50 	 Time Taken: 1 sec, Data loading: 0 sec
+2021-06-07 02:50:11,006 - utils.logger - INFO - learning rate = 0.0000100
+2021-06-07 02:50:11,328 - utils.logger - INFO - Trn result of epoch 18 / 50 mse 0.0355 rmse 0.1884 pcc 0.4418 ccc 0.3091
+2021-06-07 02:50:11,438 - utils.logger - INFO - Val result of epoch 18 / 50 mse 0.0320 rmse 0.1789 pcc 0.4181 ccc 0.3446
+2021-06-07 02:50:11,753 - utils.logger - INFO - Cur epoch 19 loss MSE:0.0825
+2021-06-07 02:50:12,074 - utils.logger - INFO - Cur epoch 19 loss MSE:0.2056
+2021-06-07 02:50:12,340 - utils.logger - INFO - Cur epoch 19 loss MSE:0.0871
+2021-06-07 02:50:12,340 - utils.logger - INFO - saving the model at the end of epoch 19, iters 114
+2021-06-07 02:50:12,497 - utils.logger - INFO - End of training epoch 19 / 50 	 Time Taken: 1 sec, Data loading: 0 sec
+2021-06-07 02:50:12,497 - utils.logger - INFO - learning rate = 0.0000100
+2021-06-07 02:50:12,816 - utils.logger - INFO - Trn result of epoch 19 / 50 mse 0.0338 rmse 0.1840 pcc 0.4817 ccc 0.3492
+2021-06-07 02:50:12,927 - utils.logger - INFO - Val result of epoch 19 / 50 mse 0.0315 rmse 0.1775 pcc 0.4325 ccc 0.3686
+2021-06-07 02:50:13,241 - utils.logger - INFO - Cur epoch 20 loss MSE:0.0039
+2021-06-07 02:50:13,557 - utils.logger - INFO - Cur epoch 20 loss MSE:0.0050
+2021-06-07 02:50:13,835 - utils.logger - INFO - Cur epoch 20 loss MSE:0.2876
+2021-06-07 02:50:13,835 - utils.logger - INFO - saving the model at the end of epoch 20, iters 120
+2021-06-07 02:50:13,991 - utils.logger - INFO - End of training epoch 20 / 50 	 Time Taken: 1 sec, Data loading: 0 sec
+2021-06-07 02:50:13,991 - utils.logger - INFO - learning rate = 0.0000097
+2021-06-07 02:50:14,318 - utils.logger - INFO - Trn result of epoch 20 / 50 mse 0.0442 rmse 0.2103 pcc 0.4616 ccc 0.3755
+2021-06-07 02:50:14,432 - utils.logger - INFO - Val result of epoch 20 / 50 mse 0.0457 rmse 0.2138 pcc 0.3748 ccc 0.3351
+2021-06-07 02:50:14,744 - utils.logger - INFO - Cur epoch 21 loss MSE:0.1101
+2021-06-07 02:50:15,053 - utils.logger - INFO - Cur epoch 21 loss MSE:2.6576
+2021-06-07 02:50:15,317 - utils.logger - INFO - Cur epoch 21 loss MSE:2.7494
+2021-06-07 02:50:15,317 - utils.logger - INFO - saving the model at the end of epoch 21, iters 126
+2021-06-07 02:50:15,474 - utils.logger - INFO - End of training epoch 21 / 50 	 Time Taken: 1 sec, Data loading: 0 sec
+2021-06-07 02:50:15,474 - utils.logger - INFO - learning rate = 0.0000094
+2021-06-07 02:50:15,796 - utils.logger - INFO - Trn result of epoch 21 / 50 mse 0.0343 rmse 0.1853 pcc 0.4790 ccc 0.3470
+2021-06-07 02:50:15,906 - utils.logger - INFO - Val result of epoch 21 / 50 mse 0.0313 rmse 0.1768 pcc 0.4462 ccc 0.3837
+2021-06-07 02:50:16,202 - utils.logger - INFO - Cur epoch 22 loss MSE:0.0169
+2021-06-07 02:50:16,508 - utils.logger - INFO - Cur epoch 22 loss MSE:0.2297
+2021-06-07 02:50:16,766 - utils.logger - INFO - Cur epoch 22 loss MSE:0.0524
+2021-06-07 02:50:16,766 - utils.logger - INFO - saving the model at the end of epoch 22, iters 132
+2021-06-07 02:50:16,907 - utils.logger - INFO - End of training epoch 22 / 50 	 Time Taken: 1 sec, Data loading: 0 sec
+2021-06-07 02:50:16,907 - utils.logger - INFO - learning rate = 0.0000090
+2021-06-07 02:50:17,223 - utils.logger - INFO - Trn result of epoch 22 / 50 mse 0.0338 rmse 0.1839 pcc 0.4891 ccc 0.3485
+2021-06-07 02:50:17,333 - utils.logger - INFO - Val result of epoch 22 / 50 mse 0.0317 rmse 0.1782 pcc 0.4271 ccc 0.3557
+2021-06-07 02:50:17,630 - utils.logger - INFO - Cur epoch 23 loss MSE:0.0835
+2021-06-07 02:50:17,938 - utils.logger - INFO - Cur epoch 23 loss MSE:0.3160
+2021-06-07 02:50:18,177 - utils.logger - INFO - Cur epoch 23 loss MSE:1.1783
+2021-06-07 02:50:18,177 - utils.logger - INFO - saving the model at the end of epoch 23, iters 138
+2021-06-07 02:50:18,324 - utils.logger - INFO - End of training epoch 23 / 50 	 Time Taken: 0 sec, Data loading: 0 sec
+2021-06-07 02:50:18,324 - utils.logger - INFO - learning rate = 0.0000087
+2021-06-07 02:50:18,645 - utils.logger - INFO - Trn result of epoch 23 / 50 mse 0.0340 rmse 0.1844 pcc 0.4933 ccc 0.3279
+2021-06-07 02:50:18,757 - utils.logger - INFO - Val result of epoch 23 / 50 mse 0.0309 rmse 0.1757 pcc 0.4423 ccc 0.3623
+2021-06-07 02:50:19,071 - utils.logger - INFO - Cur epoch 24 loss MSE:0.0966
+2021-06-07 02:50:19,396 - utils.logger - INFO - Cur epoch 24 loss MSE:0.1858
+2021-06-07 02:50:19,665 - utils.logger - INFO - Cur epoch 24 loss MSE:0.0133
+2021-06-07 02:50:19,665 - utils.logger - INFO - saving the model at the end of epoch 24, iters 144
+2021-06-07 02:50:19,829 - utils.logger - INFO - End of training epoch 24 / 50 	 Time Taken: 1 sec, Data loading: 0 sec
+2021-06-07 02:50:19,830 - utils.logger - INFO - learning rate = 0.0000084
+2021-06-07 02:50:20,151 - utils.logger - INFO - Trn result of epoch 24 / 50 mse 0.0360 rmse 0.1898 pcc 0.5006 ccc 0.4058
+2021-06-07 02:50:20,263 - utils.logger - INFO - Val result of epoch 24 / 50 mse 0.0388 rmse 0.1970 pcc 0.3747 ccc 0.3384
+2021-06-07 02:50:20,572 - utils.logger - INFO - Cur epoch 25 loss MSE:0.2093
+2021-06-07 02:50:20,881 - utils.logger - INFO - Cur epoch 25 loss MSE:2.0808
+2021-06-07 02:50:21,160 - utils.logger - INFO - Cur epoch 25 loss MSE:0.2426
+2021-06-07 02:50:21,160 - utils.logger - INFO - saving the model at the end of epoch 25, iters 150
+2021-06-07 02:50:21,311 - utils.logger - INFO - End of training epoch 25 / 50 	 Time Taken: 1 sec, Data loading: 0 sec
+2021-06-07 02:50:21,311 - utils.logger - INFO - learning rate = 0.0000081
+2021-06-07 02:50:21,634 - utils.logger - INFO - Trn result of epoch 25 / 50 mse 0.0328 rmse 0.1810 pcc 0.5119 ccc 0.3768
+2021-06-07 02:50:21,745 - utils.logger - INFO - Val result of epoch 25 / 50 mse 0.0335 rmse 0.1830 pcc 0.4004 ccc 0.3458
+2021-06-07 02:50:22,058 - utils.logger - INFO - Cur epoch 26 loss MSE:0.0790
+2021-06-07 02:50:22,370 - utils.logger - INFO - Cur epoch 26 loss MSE:0.0933
+2021-06-07 02:50:22,636 - utils.logger - INFO - Cur epoch 26 loss MSE:5.9677
+2021-06-07 02:50:22,636 - utils.logger - INFO - saving the model at the end of epoch 26, iters 156
+2021-06-07 02:50:22,792 - utils.logger - INFO - End of training epoch 26 / 50 	 Time Taken: 1 sec, Data loading: 0 sec
+2021-06-07 02:50:22,792 - utils.logger - INFO - learning rate = 0.0000077
+2021-06-07 02:50:23,117 - utils.logger - INFO - Trn result of epoch 26 / 50 mse 0.0320 rmse 0.1788 pcc 0.5254 ccc 0.3995
+2021-06-07 02:50:23,227 - utils.logger - INFO - Val result of epoch 26 / 50 mse 0.0327 rmse 0.1809 pcc 0.4185 ccc 0.3732
+2021-06-07 02:50:23,545 - utils.logger - INFO - Cur epoch 27 loss MSE:0.1218
+2021-06-07 02:50:23,853 - utils.logger - INFO - Cur epoch 27 loss MSE:0.1039
+2021-06-07 02:50:24,129 - utils.logger - INFO - Cur epoch 27 loss MSE:0.4309
+2021-06-07 02:50:24,129 - utils.logger - INFO - saving the model at the end of epoch 27, iters 162
+2021-06-07 02:50:24,284 - utils.logger - INFO - End of training epoch 27 / 50 	 Time Taken: 1 sec, Data loading: 0 sec
+2021-06-07 02:50:24,284 - utils.logger - INFO - learning rate = 0.0000074
+2021-06-07 02:50:24,600 - utils.logger - INFO - Trn result of epoch 27 / 50 mse 0.0337 rmse 0.1835 pcc 0.4937 ccc 0.3849
+2021-06-07 02:50:24,711 - utils.logger - INFO - Val result of epoch 27 / 50 mse 0.0337 rmse 0.1836 pcc 0.4139 ccc 0.3681
+2021-06-07 02:50:25,030 - utils.logger - INFO - Cur epoch 28 loss MSE:0.0284
+2021-06-07 02:50:25,351 - utils.logger - INFO - Cur epoch 28 loss MSE:0.0832
+2021-06-07 02:50:25,610 - utils.logger - INFO - Cur epoch 28 loss MSE:10.3647
+2021-06-07 02:50:25,610 - utils.logger - INFO - saving the model at the end of epoch 28, iters 168
+2021-06-07 02:50:25,769 - utils.logger - INFO - End of training epoch 28 / 50 	 Time Taken: 1 sec, Data loading: 0 sec
+2021-06-07 02:50:25,770 - utils.logger - INFO - learning rate = 0.0000071
+2021-06-07 02:50:26,090 - utils.logger - INFO - Trn result of epoch 28 / 50 mse 0.0321 rmse 0.1793 pcc 0.5336 ccc 0.3743
+2021-06-07 02:50:26,201 - utils.logger - INFO - Val result of epoch 28 / 50 mse 0.0306 rmse 0.1749 pcc 0.4483 ccc 0.3723
+2021-06-07 02:50:26,519 - utils.logger - INFO - Cur epoch 29 loss MSE:0.2754
+2021-06-07 02:50:26,838 - utils.logger - INFO - Cur epoch 29 loss MSE:0.1975
+2021-06-07 02:50:27,099 - utils.logger - INFO - Cur epoch 29 loss MSE:0.6285
+2021-06-07 02:50:27,099 - utils.logger - INFO - saving the model at the end of epoch 29, iters 174
+2021-06-07 02:50:27,258 - utils.logger - INFO - End of training epoch 29 / 50 	 Time Taken: 1 sec, Data loading: 0 sec
+2021-06-07 02:50:27,259 - utils.logger - INFO - learning rate = 0.0000068
+2021-06-07 02:50:27,585 - utils.logger - INFO - Trn result of epoch 29 / 50 mse 0.0317 rmse 0.1782 pcc 0.5414 ccc 0.3862
+2021-06-07 02:50:27,699 - utils.logger - INFO - Val result of epoch 29 / 50 mse 0.0306 rmse 0.1748 pcc 0.4567 ccc 0.3938
+2021-06-07 02:50:28,017 - utils.logger - INFO - Cur epoch 30 loss MSE:0.0642
+2021-06-07 02:50:28,335 - utils.logger - INFO - Cur epoch 30 loss MSE:0.2251
+2021-06-07 02:50:28,596 - utils.logger - INFO - Cur epoch 30 loss MSE:6.1868
+2021-06-07 02:50:28,596 - utils.logger - INFO - saving the model at the end of epoch 30, iters 180
+2021-06-07 02:50:28,755 - utils.logger - INFO - End of training epoch 30 / 50 	 Time Taken: 1 sec, Data loading: 0 sec
+2021-06-07 02:50:28,756 - utils.logger - INFO - learning rate = 0.0000065
+2021-06-07 02:50:29,069 - utils.logger - INFO - Trn result of epoch 30 / 50 mse 0.0318 rmse 0.1783 pcc 0.5315 ccc 0.4054
+2021-06-07 02:50:29,179 - utils.logger - INFO - Val result of epoch 30 / 50 mse 0.0317 rmse 0.1781 pcc 0.4363 ccc 0.3795
+2021-06-07 02:50:29,499 - utils.logger - INFO - Cur epoch 31 loss MSE:0.1338
+2021-06-07 02:50:29,815 - utils.logger - INFO - Cur epoch 31 loss MSE:0.1747
+2021-06-07 02:50:30,079 - utils.logger - INFO - Cur epoch 31 loss MSE:0.3138
+2021-06-07 02:50:30,080 - utils.logger - INFO - saving the model at the end of epoch 31, iters 186
+2021-06-07 02:50:30,238 - utils.logger - INFO - End of training epoch 31 / 50 	 Time Taken: 1 sec, Data loading: 0 sec
+2021-06-07 02:50:30,239 - utils.logger - INFO - learning rate = 0.0000061
+2021-06-07 02:50:30,569 - utils.logger - INFO - Trn result of epoch 31 / 50 mse 0.0307 rmse 0.1752 pcc 0.5603 ccc 0.4294
+2021-06-07 02:50:30,681 - utils.logger - INFO - Val result of epoch 31 / 50 mse 0.0316 rmse 0.1778 pcc 0.4399 ccc 0.3807
+2021-06-07 02:50:30,994 - utils.logger - INFO - Cur epoch 32 loss MSE:0.0710
+2021-06-07 02:50:31,312 - utils.logger - INFO - Cur epoch 32 loss MSE:0.0749
+2021-06-07 02:50:31,583 - utils.logger - INFO - Cur epoch 32 loss MSE:0.3160
+2021-06-07 02:50:31,583 - utils.logger - INFO - saving the model at the end of epoch 32, iters 192
+2021-06-07 02:50:31,740 - utils.logger - INFO - End of training epoch 32 / 50 	 Time Taken: 1 sec, Data loading: 0 sec
+2021-06-07 02:50:31,740 - utils.logger - INFO - learning rate = 0.0000058
+2021-06-07 02:50:32,056 - utils.logger - INFO - Trn result of epoch 32 / 50 mse 0.0306 rmse 0.1750 pcc 0.5727 ccc 0.4610
+2021-06-07 02:50:32,166 - utils.logger - INFO - Val result of epoch 32 / 50 mse 0.0335 rmse 0.1829 pcc 0.4295 ccc 0.3892
+2021-06-07 02:50:32,489 - utils.logger - INFO - Cur epoch 33 loss MSE:0.1551
+2021-06-07 02:50:32,800 - utils.logger - INFO - Cur epoch 33 loss MSE:0.0658
+2021-06-07 02:50:33,061 - utils.logger - INFO - Cur epoch 33 loss MSE:0.2550
+2021-06-07 02:50:33,061 - utils.logger - INFO - saving the model at the end of epoch 33, iters 198
+2021-06-07 02:50:33,220 - utils.logger - INFO - End of training epoch 33 / 50 	 Time Taken: 1 sec, Data loading: 0 sec
+2021-06-07 02:50:33,220 - utils.logger - INFO - learning rate = 0.0000055
+2021-06-07 02:50:33,541 - utils.logger - INFO - Trn result of epoch 33 / 50 mse 0.0303 rmse 0.1740 pcc 0.5677 ccc 0.4329
+2021-06-07 02:50:33,651 - utils.logger - INFO - Val result of epoch 33 / 50 mse 0.0307 rmse 0.1752 pcc 0.4646 ccc 0.4122
+2021-06-07 02:50:33,973 - utils.logger - INFO - Cur epoch 34 loss MSE:0.2766
+2021-06-07 02:50:34,285 - utils.logger - INFO - Cur epoch 34 loss MSE:0.1969
+2021-06-07 02:50:34,547 - utils.logger - INFO - Cur epoch 34 loss MSE:1.2724
+2021-06-07 02:50:34,547 - utils.logger - INFO - saving the model at the end of epoch 34, iters 204
+2021-06-07 02:50:34,712 - utils.logger - INFO - End of training epoch 34 / 50 	 Time Taken: 1 sec, Data loading: 0 sec
+2021-06-07 02:50:34,712 - utils.logger - INFO - learning rate = 0.0000052
+2021-06-07 02:50:35,033 - utils.logger - INFO - Trn result of epoch 34 / 50 mse 0.0296 rmse 0.1720 pcc 0.5835 ccc 0.4550
+2021-06-07 02:50:35,146 - utils.logger - INFO - Val result of epoch 34 / 50 mse 0.0324 rmse 0.1801 pcc 0.4393 ccc 0.3946
+2021-06-07 02:50:35,461 - utils.logger - INFO - Cur epoch 35 loss MSE:0.0405
+2021-06-07 02:50:35,782 - utils.logger - INFO - Cur epoch 35 loss MSE:0.2604
+2021-06-07 02:50:36,040 - utils.logger - INFO - Cur epoch 35 loss MSE:0.9719
+2021-06-07 02:50:36,040 - utils.logger - INFO - saving the model at the end of epoch 35, iters 210
+2021-06-07 02:50:36,201 - utils.logger - INFO - End of training epoch 35 / 50 	 Time Taken: 1 sec, Data loading: 0 sec
+2021-06-07 02:50:36,201 - utils.logger - INFO - learning rate = 0.0000048
+2021-06-07 02:50:36,519 - utils.logger - INFO - Trn result of epoch 35 / 50 mse 0.0327 rmse 0.1808 pcc 0.5524 ccc 0.4558
+2021-06-07 02:50:36,630 - utils.logger - INFO - Val result of epoch 35 / 50 mse 0.0366 rmse 0.1914 pcc 0.4130 ccc 0.3768
+2021-06-07 02:50:36,953 - utils.logger - INFO - Cur epoch 36 loss MSE:0.0693
+2021-06-07 02:50:37,265 - utils.logger - INFO - Cur epoch 36 loss MSE:0.0114
+2021-06-07 02:50:37,522 - utils.logger - INFO - Cur epoch 36 loss MSE:0.3845
+2021-06-07 02:50:37,522 - utils.logger - INFO - saving the model at the end of epoch 36, iters 216
+2021-06-07 02:50:37,682 - utils.logger - INFO - End of training epoch 36 / 50 	 Time Taken: 1 sec, Data loading: 0 sec
+2021-06-07 02:50:37,682 - utils.logger - INFO - learning rate = 0.0000045
+2021-06-07 02:50:38,000 - utils.logger - INFO - Trn result of epoch 36 / 50 mse 0.0297 rmse 0.1723 pcc 0.5921 ccc 0.4433
+2021-06-07 02:50:38,111 - utils.logger - INFO - Val result of epoch 36 / 50 mse 0.0324 rmse 0.1801 pcc 0.4301 ccc 0.3665
+2021-06-07 02:50:38,430 - utils.logger - INFO - Cur epoch 37 loss MSE:0.1450
+2021-06-07 02:50:38,741 - utils.logger - INFO - Cur epoch 37 loss MSE:0.0184
+2021-06-07 02:50:39,002 - utils.logger - INFO - Cur epoch 37 loss MSE:14.1748
+2021-06-07 02:50:39,002 - utils.logger - INFO - saving the model at the end of epoch 37, iters 222
+2021-06-07 02:50:39,160 - utils.logger - INFO - End of training epoch 37 / 50 	 Time Taken: 1 sec, Data loading: 0 sec
+2021-06-07 02:50:39,160 - utils.logger - INFO - learning rate = 0.0000042
+2021-06-07 02:50:39,483 - utils.logger - INFO - Trn result of epoch 37 / 50 mse 0.0310 rmse 0.1762 pcc 0.5525 ccc 0.4121
+2021-06-07 02:50:39,594 - utils.logger - INFO - Val result of epoch 37 / 50 mse 0.0300 rmse 0.1733 pcc 0.4662 ccc 0.3940
+2021-06-07 02:50:39,910 - utils.logger - INFO - Cur epoch 38 loss MSE:0.2167
+2021-06-07 02:50:40,231 - utils.logger - INFO - Cur epoch 38 loss MSE:0.0853
+2021-06-07 02:50:40,488 - utils.logger - INFO - Cur epoch 38 loss MSE:0.3737
+2021-06-07 02:50:40,488 - utils.logger - INFO - saving the model at the end of epoch 38, iters 228
+2021-06-07 02:50:40,648 - utils.logger - INFO - End of training epoch 38 / 50 	 Time Taken: 1 sec, Data loading: 0 sec
+2021-06-07 02:50:40,648 - utils.logger - INFO - learning rate = 0.0000039
+2021-06-07 02:50:40,962 - utils.logger - INFO - Trn result of epoch 38 / 50 mse 0.0297 rmse 0.1722 pcc 0.5807 ccc 0.4501
+2021-06-07 02:50:41,074 - utils.logger - INFO - Val result of epoch 38 / 50 mse 0.0302 rmse 0.1738 pcc 0.4695 ccc 0.4083
+2021-06-07 02:50:41,391 - utils.logger - INFO - Cur epoch 39 loss MSE:0.1759
+2021-06-07 02:50:41,708 - utils.logger - INFO - Cur epoch 39 loss MSE:0.0240
+2021-06-07 02:50:41,983 - utils.logger - INFO - Cur epoch 39 loss MSE:0.3545
+2021-06-07 02:50:41,983 - utils.logger - INFO - saving the model at the end of epoch 39, iters 234
+2021-06-07 02:50:42,139 - utils.logger - INFO - End of training epoch 39 / 50 	 Time Taken: 1 sec, Data loading: 0 sec
+2021-06-07 02:50:42,139 - utils.logger - INFO - learning rate = 0.0000035
+2021-06-07 02:50:42,466 - utils.logger - INFO - Trn result of epoch 39 / 50 mse 0.0313 rmse 0.1769 pcc 0.5627 ccc 0.4490
+2021-06-07 02:50:42,580 - utils.logger - INFO - Val result of epoch 39 / 50 mse 0.0345 rmse 0.1858 pcc 0.4206 ccc 0.3743
+2021-06-07 02:50:42,892 - utils.logger - INFO - Cur epoch 40 loss MSE:0.0801
+2021-06-07 02:50:43,211 - utils.logger - INFO - Cur epoch 40 loss MSE:0.0011
+2021-06-07 02:50:43,477 - utils.logger - INFO - Cur epoch 40 loss MSE:0.1617
+2021-06-07 02:50:43,478 - utils.logger - INFO - saving the model at the end of epoch 40, iters 240
+2021-06-07 02:50:43,639 - utils.logger - INFO - End of training epoch 40 / 50 	 Time Taken: 1 sec, Data loading: 0 sec
+2021-06-07 02:50:43,639 - utils.logger - INFO - learning rate = 0.0000032
+2021-06-07 02:50:43,958 - utils.logger - INFO - Trn result of epoch 40 / 50 mse 0.0305 rmse 0.1748 pcc 0.5558 ccc 0.4673
+2021-06-07 02:50:44,069 - utils.logger - INFO - Val result of epoch 40 / 50 mse 0.0321 rmse 0.1790 pcc 0.4529 ccc 0.4134
+2021-06-07 02:50:44,382 - utils.logger - INFO - Cur epoch 41 loss MSE:0.0319
+2021-06-07 02:50:44,694 - utils.logger - INFO - Cur epoch 41 loss MSE:0.0122
+2021-06-07 02:50:44,969 - utils.logger - INFO - Cur epoch 41 loss MSE:0.0224
+2021-06-07 02:50:44,969 - utils.logger - INFO - saving the model at the end of epoch 41, iters 246
+2021-06-07 02:50:45,130 - utils.logger - INFO - End of training epoch 41 / 50 	 Time Taken: 1 sec, Data loading: 0 sec
+2021-06-07 02:50:45,131 - utils.logger - INFO - learning rate = 0.0000029
+2021-06-07 02:50:45,453 - utils.logger - INFO - Trn result of epoch 41 / 50 mse 0.0298 rmse 0.1726 pcc 0.5918 ccc 0.4992
+2021-06-07 02:50:45,564 - utils.logger - INFO - Val result of epoch 41 / 50 mse 0.0348 rmse 0.1865 pcc 0.4331 ccc 0.3988
+2021-06-07 02:50:45,867 - utils.logger - INFO - Cur epoch 42 loss MSE:0.0373
+2021-06-07 02:50:46,175 - utils.logger - INFO - Cur epoch 42 loss MSE:0.2904
+2021-06-07 02:50:46,426 - utils.logger - INFO - Cur epoch 42 loss MSE:0.7295
+2021-06-07 02:50:46,427 - utils.logger - INFO - saving the model at the end of epoch 42, iters 252
+2021-06-07 02:50:46,570 - utils.logger - INFO - End of training epoch 42 / 50 	 Time Taken: 1 sec, Data loading: 0 sec
+2021-06-07 02:50:46,570 - utils.logger - INFO - learning rate = 0.0000026
+2021-06-07 02:50:46,892 - utils.logger - INFO - Trn result of epoch 42 / 50 mse 0.0305 rmse 0.1745 pcc 0.5535 ccc 0.4716
+2021-06-07 02:50:47,006 - utils.logger - INFO - Val result of epoch 42 / 50 mse 0.0319 rmse 0.1786 pcc 0.4598 ccc 0.4286
+2021-06-07 02:50:47,315 - utils.logger - INFO - Cur epoch 43 loss MSE:0.0492
+2021-06-07 02:50:47,615 - utils.logger - INFO - Cur epoch 43 loss MSE:0.0176
+2021-06-07 02:50:47,869 - utils.logger - INFO - Cur epoch 43 loss MSE:0.2752
+2021-06-07 02:50:47,869 - utils.logger - INFO - saving the model at the end of epoch 43, iters 258
+2021-06-07 02:50:47,993 - utils.logger - INFO - End of training epoch 43 / 50 	 Time Taken: 0 sec, Data loading: 0 sec
+2021-06-07 02:50:47,993 - utils.logger - INFO - learning rate = 0.0000023
+2021-06-07 02:50:48,315 - utils.logger - INFO - Trn result of epoch 43 / 50 mse 0.0303 rmse 0.1741 pcc 0.5670 ccc 0.4681
+2021-06-07 02:50:48,426 - utils.logger - INFO - Val result of epoch 43 / 50 mse 0.0327 rmse 0.1808 pcc 0.4513 ccc 0.4121
+2021-06-07 02:50:48,725 - utils.logger - INFO - Cur epoch 44 loss MSE:0.0232
+2021-06-07 02:50:49,033 - utils.logger - INFO - Cur epoch 44 loss MSE:0.4330
+2021-06-07 02:50:49,279 - utils.logger - INFO - Cur epoch 44 loss MSE:6.1158
+2021-06-07 02:50:49,279 - utils.logger - INFO - saving the model at the end of epoch 44, iters 264
+2021-06-07 02:50:49,423 - utils.logger - INFO - End of training epoch 44 / 50 	 Time Taken: 0 sec, Data loading: 0 sec
+2021-06-07 02:50:49,423 - utils.logger - INFO - learning rate = 0.0000019
+2021-06-07 02:50:49,745 - utils.logger - INFO - Trn result of epoch 44 / 50 mse 0.0305 rmse 0.1747 pcc 0.5553 ccc 0.4654
+2021-06-07 02:50:49,857 - utils.logger - INFO - Val result of epoch 44 / 50 mse 0.0307 rmse 0.1751 pcc 0.4705 ccc 0.4251
+2021-06-07 02:50:50,168 - utils.logger - INFO - Cur epoch 45 loss MSE:0.2328
+2021-06-07 02:50:50,487 - utils.logger - INFO - Cur epoch 45 loss MSE:0.0245
+2021-06-07 02:50:50,736 - utils.logger - INFO - Cur epoch 45 loss MSE:1.4383
+2021-06-07 02:50:50,736 - utils.logger - INFO - saving the model at the end of epoch 45, iters 270
+2021-06-07 02:50:50,896 - utils.logger - INFO - End of training epoch 45 / 50 	 Time Taken: 1 sec, Data loading: 0 sec
+2021-06-07 02:50:50,896 - utils.logger - INFO - learning rate = 0.0000016
+2021-06-07 02:50:51,221 - utils.logger - INFO - Trn result of epoch 45 / 50 mse 0.0292 rmse 0.1707 pcc 0.5825 ccc 0.4823
+2021-06-07 02:50:51,336 - utils.logger - INFO - Val result of epoch 45 / 50 mse 0.0307 rmse 0.1751 pcc 0.4733 ccc 0.4307
+2021-06-07 02:50:51,676 - utils.logger - INFO - Cur epoch 46 loss MSE:0.2912
+2021-06-07 02:50:52,003 - utils.logger - INFO - Cur epoch 46 loss MSE:0.0096
+2021-06-07 02:50:52,276 - utils.logger - INFO - Cur epoch 46 loss MSE:0.0100
+2021-06-07 02:50:52,276 - utils.logger - INFO - saving the model at the end of epoch 46, iters 276
+2021-06-07 02:50:52,429 - utils.logger - INFO - End of training epoch 46 / 50 	 Time Taken: 1 sec, Data loading: 0 sec
+2021-06-07 02:50:52,429 - utils.logger - INFO - learning rate = 0.0000013
+2021-06-07 02:50:52,748 - utils.logger - INFO - Trn result of epoch 46 / 50 mse 0.0290 rmse 0.1703 pcc 0.5887 ccc 0.5061
+2021-06-07 02:50:52,859 - utils.logger - INFO - Val result of epoch 46 / 50 mse 0.0316 rmse 0.1777 pcc 0.4669 ccc 0.4310
+2021-06-07 02:50:53,174 - utils.logger - INFO - Cur epoch 47 loss MSE:0.2763
+2021-06-07 02:50:53,496 - utils.logger - INFO - Cur epoch 47 loss MSE:0.0818
+2021-06-07 02:50:53,763 - utils.logger - INFO - Cur epoch 47 loss MSE:0.0907
+2021-06-07 02:50:53,763 - utils.logger - INFO - saving the model at the end of epoch 47, iters 282
+2021-06-07 02:50:53,920 - utils.logger - INFO - End of training epoch 47 / 50 	 Time Taken: 1 sec, Data loading: 0 sec
+2021-06-07 02:50:53,920 - utils.logger - INFO - learning rate = 0.0000010
+2021-06-07 02:50:54,241 - utils.logger - INFO - Trn result of epoch 47 / 50 mse 0.0309 rmse 0.1759 pcc 0.5528 ccc 0.4663
+2021-06-07 02:50:54,353 - utils.logger - INFO - Val result of epoch 47 / 50 mse 0.0320 rmse 0.1790 pcc 0.4594 ccc 0.4202
+2021-06-07 02:50:54,671 - utils.logger - INFO - Cur epoch 48 loss MSE:0.0422
+2021-06-07 02:50:54,989 - utils.logger - INFO - Cur epoch 48 loss MSE:0.4188
+2021-06-07 02:50:55,256 - utils.logger - INFO - Cur epoch 48 loss MSE:1.4818
+2021-06-07 02:50:55,256 - utils.logger - INFO - saving the model at the end of epoch 48, iters 288
+2021-06-07 02:50:55,428 - utils.logger - INFO - End of training epoch 48 / 50 	 Time Taken: 1 sec, Data loading: 0 sec
+2021-06-07 02:50:55,429 - utils.logger - INFO - learning rate = 0.0000006
+2021-06-07 02:50:55,746 - utils.logger - INFO - Trn result of epoch 48 / 50 mse 0.0300 rmse 0.1731 pcc 0.5724 ccc 0.4722
+2021-06-07 02:50:55,856 - utils.logger - INFO - Val result of epoch 48 / 50 mse 0.0325 rmse 0.1802 pcc 0.4541 ccc 0.4172
+2021-06-07 02:50:56,166 - utils.logger - INFO - Cur epoch 49 loss MSE:0.0260
+2021-06-07 02:50:56,483 - utils.logger - INFO - Cur epoch 49 loss MSE:0.0112
+2021-06-07 02:50:56,752 - utils.logger - INFO - Cur epoch 49 loss MSE:0.7793
+2021-06-07 02:50:56,752 - utils.logger - INFO - saving the model at the end of epoch 49, iters 294
+2021-06-07 02:50:56,929 - utils.logger - INFO - End of training epoch 49 / 50 	 Time Taken: 1 sec, Data loading: 0 sec
+2021-06-07 02:50:56,929 - utils.logger - INFO - learning rate = 0.0000003
+2021-06-07 02:50:57,251 - utils.logger - INFO - Trn result of epoch 49 / 50 mse 0.0290 rmse 0.1704 pcc 0.5887 ccc 0.4802
+2021-06-07 02:50:57,363 - utils.logger - INFO - Val result of epoch 49 / 50 mse 0.0323 rmse 0.1796 pcc 0.4569 ccc 0.4202
+2021-06-07 02:50:57,690 - utils.logger - INFO - Cur epoch 50 loss MSE:0.0208
+2021-06-07 02:50:58,024 - utils.logger - INFO - Cur epoch 50 loss MSE:0.2399
+2021-06-07 02:50:58,309 - utils.logger - INFO - Cur epoch 50 loss MSE:0.2709
+2021-06-07 02:50:58,309 - utils.logger - INFO - saving the model at the end of epoch 50, iters 300
+2021-06-07 02:50:58,466 - utils.logger - INFO - End of training epoch 50 / 50 	 Time Taken: 1 sec, Data loading: 0 sec
+2021-06-07 02:50:58,467 - utils.logger - INFO - learning rate = 0.0000000
+2021-06-07 02:50:58,787 - utils.logger - INFO - Trn result of epoch 50 / 50 mse 0.0293 rmse 0.1713 pcc 0.5829 ccc 0.4875
+2021-06-07 02:50:58,899 - utils.logger - INFO - Val result of epoch 50 / 50 mse 0.0319 rmse 0.1786 pcc 0.4580 ccc 0.4184
+2021-06-07 02:50:58,899 - utils.logger - INFO - Best eval epoch 46 found with ccc 0.431034
+2021-06-07 02:50:58,899 - utils.logger - INFO - baseline_earlyfusion_norm_egemaps_valence_hidden1024_seq100_run1

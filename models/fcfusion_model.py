@@ -5,6 +5,7 @@ from .base_model import BaseModel
 from .networks.classifier import FcClassifier
 from .networks.fc_encoder import FcEncoder
 from .networks.lstm_encoder import LSTMEncoder, BiLSTMEncoder
+from .networks.loss import CCCLoss
 
 class FcFusionModel(BaseModel):
     @staticmethod
@@ -16,7 +17,7 @@ class FcFusionModel(BaseModel):
         parser.add_argument('--target', default='arousal', type=str, help='one of [arousal, valence]')
         parser.add_argument('--bidirection', default=False, action='store_true', help='whether to use bidirectional lstm')
         parser.add_argument('--normalize', action='store_true', default=False, help='whether to normalize step features')
-        parser.add_argument('--loss_type', type=str, default='mse', choices=['mse', 'l1'], help='use MSEloss or L1loss')
+        parser.add_argument('--loss_type', type=str, default='mse', choices=['mse', 'l1', 'ccc'], help='use MSEloss or L1loss or cccloss')
         
         return parser
 
@@ -27,7 +28,7 @@ class FcFusionModel(BaseModel):
             opt (Option class)-- stores all the experiment flags; needs to be a subclass of BaseOptions
         """
         super().__init__(opt, logger)
-        self.loss_names = ['MSE']
+        self.loss_names = [opt.loss_type]
         self.model_names = ['_fc', '_seq', '_reg']
         
         if opt.hidden_size == -1:
@@ -52,6 +53,8 @@ class FcFusionModel(BaseModel):
         if self.isTrain:
             if opt.loss_type == 'mse':
                 self.criterion_reg = torch.nn.MSELoss(reduction='sum')
+            elif opt.loss_type == 'ccc':
+                self.criterion_reg = CCCLoss()
             else:
                 self.criterion_reg = torch.nn.L1Loss(reduction='sum')
             
@@ -118,7 +121,12 @@ class FcFusionModel(BaseModel):
         pred = pred.squeeze() * mask
         target = target * mask
         batch_size = target.size(0)
-        self.loss_MSE = self.criterion_reg(pred, target) / batch_size
-        self.loss_MSE.backward(retain_graph=False)    
+        loss_name = self.loss_names[0]
+        exec('self.loss_{} = self.criterion_reg(pred, target) / batch_size'.format(loss_name))
+        exec('self.loss_{}.backward(retain_graph=False)'.format(loss_name))
+
+        # self.loss_ccc = self.criterion_reg(pred, target) / batch_size
+        # self.loss_ccc.backward(retain_graph=False)    
+
         for model in self.model_names:
             torch.nn.utils.clip_grad_norm_(getattr(self, 'net'+model).parameters(), 5)
