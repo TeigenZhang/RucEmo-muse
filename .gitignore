@@ -6,3 +6,5 @@ checkpoints/
 logs/
 .vscode/
 submit/
+logs*/
+results/

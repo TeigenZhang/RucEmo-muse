@@ -40,6 +40,24 @@ class LSTMEncoder(nn.Module):
         r_out, (h_n, h_c) = self.rnn(x, states)
         return r_out, (h_n, h_c)
 
+class LSTM_official_Encoder(nn.Module):
+    def __init__(self, input_size, hidden_size):
+        super(LSTM_official_Encoder, self).__init__()
+        self.input_size = input_size
+        self.hidden_size = hidden_size
+        self.rnn = nn.LSTM(self.input_size, self.hidden_size, batch_first=True,
+                       num_layers=1)
+    
+    def forward(self, x):
+        '''
+        Parameters:
+        ------------------------
+        x: input feature seqences
+        states: (h_0, c_0)
+        '''
+        r_out, (h_n, h_c) = self.rnn(x)
+        return r_out, (h_n, h_c)
+
 class FcLstmEncoder(nn.Module):
     def __init__(self, input_size, hidden_size, bidirectional=False):
         super(FcLstmEncoder, self).__init__()

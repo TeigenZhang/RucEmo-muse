@@ -102,7 +102,7 @@ class CustomDatasetDataLoader():
         if self.dataset.manual_collate_fn: 
             self.dataloader = torch.utils.data.DataLoader(
                 self.dataset,
-                batch_size=opt.batch_size,
+                batch_size=opt.batch_size ,
                 shuffle=not opt.serial_batches,
                 num_workers=int(opt.num_threads),
                 drop_last=False,
@@ -111,9 +111,10 @@ class CustomDatasetDataLoader():
             )
 
         else:
+            batch_size = opt.batch_size if kwargs['set_name'] == 'trn' else 1
             self.dataloader = torch.utils.data.DataLoader(
                 self.dataset,
-                batch_size=opt.batch_size,
+                batch_size=batch_size,
                 shuffle=not opt.serial_batches,
                 num_workers=int(opt.num_threads),
                 drop_last=False,

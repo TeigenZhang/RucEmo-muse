@@ -46,6 +46,18 @@ class MuseStressDataset(BaseDataset):
                 }
 
     def load_feature(self):
+        # self.feature_data = {}
+        # for feature_name in self.feature_set:
+        #     h5f = h5py.File(os.path.join(self.root, 'feature', '{}.h5'.format(feature_name)), 'r')
+        #     feature_data = {}
+        #     for _id in self.seg_ids:
+        #         feature_data[_id] = h5f[self.set_name][_id]['feature'][()]
+        #         # assert (h5f[self.set_name][_id]['timestamp'][()] == self.target[_id]['timestamp'].numpy()).all(), '\
+        #         assert len(h5f[self.set_name][_id]['timestamp'][()]) == len(self.target[_id]['timestamp']), '\
+        #             Data Error: In feature {}, seg_id: {}, timestamp does not match label timestamp'.format(feature_name, _id)
+        #     self.feature_data[feature_name] = feature_data
+        
+
         self.feature_data = {}
         for feature_name in self.feature_set:
             h5f = h5py.File(os.path.join(self.root, 'feature', '{}.h5'.format(feature_name)), 'r')
