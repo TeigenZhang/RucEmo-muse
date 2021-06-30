@@ -52,6 +52,7 @@ if __name__ == '__main__':
     suffix = opt.name                                   # get logger suffix
     logger = get_logger(logger_path, suffix)            # get logger
     
+    # dataset, val_dataset, trn_evl_dataset = create_dataset_with_args(opt, set_name=['trn', 'val', 'trn_evl'])  # create a dataset given opt.dataset_mode and other options
     dataset, val_dataset = create_dataset_with_args(opt, set_name=['trn', 'val'])  # create a dataset given opt.dataset_mode and other options
     dataset_size = len(dataset)                         # get the number of images in the dataset.
     logger.info('The number of training samples = %d' % dataset_size)
@@ -110,7 +111,7 @@ if __name__ == '__main__':
         model.update_learning_rate()                      # update learning rates at the end of every epoch.
 
         # eval trn set
-        # mse, rmse, pcc, ccc, window = eval(model, dataset)
+        # mse, rmse, pcc, ccc, window = eval(model, trn_evl_dataset)
         # logger.info('Trn result of epoch %d / %d mse %.4f rmse %.4f pcc %.4f ccc %.4f' % (epoch, opt.niter + opt.niter_decay, mse, rmse, pcc, ccc))
         
         # eval val set

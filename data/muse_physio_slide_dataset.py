@@ -10,7 +10,7 @@ from torch.nn.utils.rnn import pad_sequence
 from .base_dataset import BaseDataset
 
 
-class MuseStressSlideDataset(BaseDataset):    
+class MusePhysioSlideDataset(BaseDataset):    
     @staticmethod
     def modify_commandline_options(parser, is_train=True):
         parser.add_argument('--win_len', type=int, default=300, help='window length of a segment')
@@ -25,7 +25,7 @@ class MuseStressSlideDataset(BaseDataset):
         set_name: [trn, val, tst]
         '''
         super().__init__(opt)
-        self.root = '/data12/lrc/MUSE2021/h5_data/c3_muse_stress/'
+        self.root = '/data12/lrc/MUSE2021/h5_data/c4_muse_physio/'
         self.feature_set = list(map(lambda x: x.strip(), opt.feature_set.split(',')))
         self.set_name = set_name
         self.load_label()
@@ -66,9 +66,7 @@ class MuseStressSlideDataset(BaseDataset):
                     stop_flag = True
 
                 label_seg = {
-                    'arousal': self.pad_max_len(label_dict['arousal'][st:ed], self.win_len),
-                    'valence': self.pad_max_len(label_dict['valence'][st:ed], self.win_len),
-                    # 'EDA': self.pad_max_len(label_dict['EDA'][st:ed], self.win_len),
+                    'EDA': self.pad_max_len(label_dict['EDA'][st:ed], self.win_len),
                     'length': torch.as_tensor(ed - st).long(),
                     'timestamp': self.pad_max_len(label_dict['timestamp'][st:ed], self.win_len)
                 }
@@ -88,9 +86,7 @@ class MuseStressSlideDataset(BaseDataset):
         for _id in self.seg_ids:
             if self.set_name != 'tst':
                 self.target[_id] = {
-                    'arousal': torch.from_numpy(label_h5f[_id]['arousal'][()]).float(),
-                    'valence': torch.from_numpy(label_h5f[_id]['valence'][()]).float(),
-                    # 'EDA': torch.from_numpy(label_h5f[_id]['EDA'][()]).float(),
+                    'EDA': torch.from_numpy(label_h5f[_id]['anno12_EDA'][()]).float(),
                     'length': torch.as_tensor(label_h5f[_id]['length'][()]).long(),
                     'timestamp': torch.from_numpy(label_h5f[_id]['timestamp'][()]).long(),
                 }
@@ -131,9 +127,7 @@ class MuseStressSlideDataset(BaseDataset):
             ], dim=-1)
             return {
                 'feature': feature.float(),
-                'arousal': self.target[_id]['arousal'].float(),
-                'valence': self.target[_id]['valence'].float(),
-                # 'EDA': self.target[_id]['EDA'].float(),
+                'EDA': self.target[_id]['EDA'].float(),
                 'timestamp': self.target[_id]['timestamp'].float(),
                 'mask': torch.ones(feature.size(0)).long()
             }
@@ -145,13 +139,13 @@ class MuseStressSlideDataset(BaseDataset):
 if __name__ == '__main__':
     class test:
         feature_set = 'bert,vggface,vggish'
-        dataroot = '/data12/lrc/MUSE2021/h5_data/c3_muse_stress/'
+        dataroot = '/data12/lrc/MUSE2021/h5_data/c4_muse_stress/'
         win_len = 300
         hop_len = 100
         max_seq_len = 100
 
     opt = test()
-    a = MuseStressSlideDataset(opt, 'val')
+    a = MusePhysioSlideDataset(opt, 'val')
 
     data1 = a[0]
     for key, value in data1.items():
